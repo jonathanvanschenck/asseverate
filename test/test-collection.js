@@ -71,9 +71,9 @@ class Users extends Collection {
     static controllers = [ GetUsers, PostUser, GetUser ];
 }
 
-const test = new Test(OPTS_DEV);
-const users = new Users(OPTS_DEV);
 const app = new App();
+const test = Test.for_app(app, OPTS_DEV);
+const users = Users.for_app(app, OPTS_DEV);
 
 test.mount(app);
 users.mount(app);
