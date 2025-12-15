@@ -1,6 +1,6 @@
 {
   "name": "asseverate",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,8 +14,8 @@
   },
   "author": "Jonathan D. B. Van Schenck",
   "repository": {
-      "type": "git",
-      "url": "https://github.com/jonathanvanschenck/asseverate.git"
+    "type": "git",
+    "url": "https://github.com/jonathanvanschenck/asseverate.git"
   },
   "license": "MIT",
   "devDependencies": {
